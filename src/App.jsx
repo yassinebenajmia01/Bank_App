@@ -6,6 +6,7 @@ import Story from "./Component/story";
 import Login from "./pages/login";
 import SignUp from "./pages/sign";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Footer from "./Component/Footer";
 
 function App() {
       return (
@@ -25,6 +26,7 @@ function App() {
         <SearchBar/>
         <Story/>
         <List/>
+        <Footer/>
 
       </>}/>
       
