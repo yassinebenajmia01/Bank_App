@@ -1,3 +1,4 @@
+import { propTypeClassName } from "@material-tailwind/react/types/components/timeline";
 
 const Products = [
   {
@@ -14,11 +15,12 @@ const Products = [
   {
     id: 9,
     name: "Opplo Watch Series 8 GPS + Cellular Stainless Steel Case with Milanese Loop",
-    specs: "Stainless Steel Case with Milanese Loop",
+    specs: "",
     priceRange: {
       min: 979.00,
       max: 1259.00
     },
+    color: "Black",
     shipping: "2.98 Shipping",
     availability: "Pre-order",
     image: "https://s3-alpha-sig.figma.com/img/a6db/a9c6/0c4399ce199fd5657145a6a95461ef81?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fq8cRHxUrcb~UPCFNQ299P1-sRIFm8rRI5kxqdOAM5wlV6gDe6mfqDVaYiWxhlMAvy7suiCLEVr5T0m17MliMFJhcWx~7S5dapiNj4ZQ81Meiaw7epjxqh5NdtWiJOeXqcX~LiUXj8VO10UPomUDjCfQWOlkZhxx0uNLUi39-mJBI96-3NZ3kN-QrpScxK1A29xEelneMq0APU7sb5L~B6YE0nrSxlT1js1RZFz2fjADCaErICwQ10Y-u6r2C~sr5aIDtUC2QuSMfal0sPP02r-O9A~mug9TwlG32cLdmMRMjUuY-dD8PxKxIxpDJL13vxL1qaV~7PQlmT1ScMlOGw__"
@@ -44,7 +46,52 @@ const Products = [
     shipping: "Free Shipping",
     availability: "In stock",
     image: "https://s3-alpha-sig.figma.com/img/70fb/3352/120a006a36410fe660bdcf040428d535?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J5tGZd1IPDXdZLNvtNaA4x7EEV1852Kz-WN5vpItQT2qD-0foIQEODGcAErGba~pjpYBhPVoEBcKP1aY8KTv47yOnJifo2RyRJJ4ejpSKASlKduDiGTsm6SH6eAhhyvCIdmdm4dZcYh-UNwVXQwdjf6zSMlKIfxEUZUrnK5aHJGcxuDyJmns~rS8FNu5xPx1JgmZs24GuF-VqZEHwuHjPtr7bWjtGLCRhb9h-Cq7DpBk0mqu9NbNvgEOV6HPY4PZgzcIwivkbJT466ay5AHwVcNEHSFUU8IFHAfy2sxjeke4xMpmpPvuQh0epy8SupZ3DqVgIJcK4hoKXN36A2Ly0g__"
-  }
+  },
+  {
+    id: 152,
+    name: "SROK Smart Phone 128GB, Oled Retina",
+    specs: "128GB / Oled Retina",
+    price: 579.00,
+    originalPrice: 759.00,
+    discount: 199.00,
+    shipping: "Free Shipping",
+    availability: "In stock",
+    image: "https://s3-alpha-sig.figma.com/img/175d/4e01/c3ccc08552a7608516d07ff4f2593a4a?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LIEeEt9x89zLhrPrUp8ueJ5ThyrdXRdsN4ttcjTjLZGwvmkRwM6ggGIMq9ECy~RacRWiGgoscEcD9kueJDipH0qqY05C1Iks~ez0uUfR1RBNFu73Oq~a~My9guvZsUISDdsiQ9vIpwKaveMdlQLI7kN4aEwplfVAk2tfqrKDLaFTxS1z5452yCPtDSlfmsRuNU~2te8JCyANsgQBbMiTufTcx5KSBP9Xt9bfUTgsrQsYEX72qhxfEvoX5GfrvGktZ4dB8f5GLNR1oMAAoTqugTxz0XBTR0KoBVsI7klptYuiDn5w1KyzROvUCnor5MhG8yb6jJgxezN1HzmoLbaUbw__"
+  },
+  {
+    id: 152,
+    name: "aPod Pro Tablet 2023 LTE + Wifi, GPS Cellular 12.9 Inch, 512GB",
+    specs: "512GB / Wifi, GPS Cellular",
+    priceRange: {
+      min: 979.00,
+      max: 1259.00
+    },
+    shipping: "2.98 Shipping",
+    availability: "In stock",
+    image: "https://s3-alpha-sig.figma.com/img/f731/1fe8/359d8e443a010f51a2a03878d38edca5?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UhQF4iXvFgVj80p4msBkQRbF8gl120RKN2sHWekWO76evK4r-XCjAAVSTOKdZHYFGGuKOgAGisw5XIEkZzKHJwWc7dTGnp-119DHXMgUhn5E3lE0~ipBxc6WXOe7gIAlcvHiFTxWkYn5DLimO46nQem58To1vYP3pwjEdm9DV3OKrmICl2tfexGtoO64jHwGCAW70zleWVlKnLLKkeQMaQnHUhN~cfdkHu9N64PbJMq8cVftjDHaQSZWrS~FcVTYwy1CuFzLswBZKvmqi~ka4PUSgfSM97U1nRhGKRWZ43sdDmskkKaHWBBDY9nxekpqIcU3SbRivcThB3qbeV1auQ__"
+  },
+  {
+    id: 152,
+    name: "Samsung Galaxy X6 Ultra LTE 4G/128 Gb, Black Smartphone",
+    specs: "128GB / LTE 4G",
+    price: 659.00,
+    originalPrice: null,
+    discount: null,
+    shipping: "Free Shipping",
+    availability: "In stock",
+    image: "https://s3-alpha-sig.figma.com/img/ea0c/93bf/3f5c87594153c93d6ee1cb8aa3dece52?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oF5g5fkC1j41MeM3uOOVFTCagMiJONxpxzHgXPh8FuvpiioO9V8~Ffmpn5-Hr5XKQpeZqtYz7hBxpSOphnXs7r0mb~XegHr0JMJkmTA5liEQSv~2KK~JcY5Q-dmHK-cWjGeRVefQCkOilsk5IdIKk0Iowj5W~kTLYieufnUi~gy61bGwq0XzzHy96HcxHaqEFCkyk0L0GNXxILXAvySAHKbZk1JIf9l0WWUjUims9mM8Tjqh6r~WyJdUGxFz6HTuYQcczQfTHX1MHEFwgO1EIApG6BxydZIqtc5zfW3SObcM9pLEFgyaSikP9yAOIfFfm6foB0ErOe4jwozIE-kUKQ__"
+  },
+  {
+    id: 152,
+    name: "Xiaomi Redmi Note 5, 64GB",
+    specs: "64GB / LTE",
+    price: 1239.00,
+    originalPrice: 1610.00,
+    discount: 59.00,
+    shipping: "Free Shipping",
+    availability: "Contact",
+    image: "https://s3-alpha-sig.figma.com/img/e971/6b3d/a8adab464285c71a3f34ecbb005d65b2?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gz1tBD-T3j1dN0gbAoSOGNhVdPgnur5DPY6BauzSvU7bwq-IVvZz~0NZlPtcm2j5hKezeKkHjdS0XBBX9kmkaq6LBlRI7OtfSesJ3vlqeFB3trirY5OAVSNZ1RRrWGF9t5A4~rsb9pH79IqarQnIYJm7a0nk9xqDWPTkIteToPiQ1kgPf-qyqKCgglN9Ghb7LR0GQunM2gbqH52MwC49BfXaZEuadZVvkn59QUudG2V-jNAsj3krk2ybBGG~yWwjo-GSc~RD9lrUEMn~28BL4n9icookrvjNHlAdY1r0cDTPmNXaKAqDu6fJodGbUV1ue3tB3zDLntViWVj4cQ-7Tw__"
+  },
 ];
 
 export default Products;

@@ -2,14 +2,17 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
-function Product({ name, price, priceRange, specs, image, originalPrice, discount, shipping, availability }) {
+function Product({ name, price, priceRange, specs, image, originalPrice, discount, shipping,availability }) {
   return (
+    <>
+    
     <div className="h-[300px] text-center relative">
       {discount != null && !priceRange && (
         <div className="bg-green-600 text-white py-1 px-2 rounded absolute top-4 left-4 text-xs">
           SAVE ${discount.toFixed(2)}
         </div>
       )}
+      <div className="cursor-pointer rounded-full bg-slate-300 h-10 w-10 flex items-center justify-center text-5xl font-serif ml-60"></div>
       <img 
         src={image}
         alt={name} 
@@ -17,7 +20,7 @@ function Product({ name, price, priceRange, specs, image, originalPrice, discoun
       />
       <div className="mt-4">
         <h2 className="text-lg font-semibold">{name}</h2>
-        <p className="text-gray-600">{specs}</p>
+        <p className="text-lg font-semibold">{specs}</p>
         <div className="mt-2 mb-[10%]">
           {priceRange ? (
             <span className="text-black text-xl font-bold">${priceRange.min.toFixed(2)} - ${priceRange.max.toFixed(2)}</span>
@@ -46,6 +49,7 @@ function Product({ name, price, priceRange, specs, image, originalPrice, discoun
         </div>
       </div>
     </div>
+    </>
   );
 }
 
