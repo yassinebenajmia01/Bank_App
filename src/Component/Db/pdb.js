@@ -1,5 +1,3 @@
-import { propTypeClassName } from "@material-tailwind/react/types/components/timeline";
-
 const Products = [
   {
     id: 8,
