@@ -1,22 +1,29 @@
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
 function Product({ name, price, priceRange, specs, image, originalPrice, discount, shipping, availability }) {
-  const isNewProduct = name === "Samsung Galaxy X6 Ultra LTE 4G/128 Gb, Black Smartphone" || name === "aPod Pro Tablet 2023 LTE + Wifi, GPS Cellular 12.9 Inch, 512GB";
+  const isNewProduct = name === "Samsung Galaxy X6 Ultra LTE 4G/128 Gb, Black Smartphone" || name === "aPod Pro Tablet 2023 LTE + Wifi, GPS Cellular 12.9 Inch, 512GB" || name === "LG Pro Tablet 2023 LTE + Wifi, GPS Cellular" || name==="Samsung Galaxy X6 Ultra LTE 4G/128 Gbb, Black Smartphone";
+  const isSpecialProduct = name === "OPod Pro 12.9 Inch M2 2023";
+  const isOutOfStock = name === "Samsung Galaxy X6 Ultra LTE 4G/128 Gb, Black Smartphone";
+  
 
   return (
     <>
       <div className="h-[300px] text-center relative">
         {discount != null && !priceRange && (
-          <div className="bg-green-600 text-white py-1 px-2 rounded absolute top-4 left-4 text-xs">
+          <div className={`${isSpecialProduct ? 'bg-blue-600' : 'bg-green-600'} text-white py-1 px-2 rounded absolute top-4 left-4 text-xs w-[25%] h-[15%]`}>
             SAVE ${discount.toFixed(2)}
           </div>
         )}
         {isNewProduct && (
           <div className="bg-black text-white py-1 px-2 rounded absolute top-4 left-4 text-xs h-7 w-19">
             NEW
+          </div>
+        )}
+        {isOutOfStock && (
+          <div className="bg-black text-white py-1 px-2 rounded absolute top-4 left-4 text-xs h-7 w-19">
+            OUT OF STOCK
           </div>
         )}
         <div className="cursor-pointer rounded-full bg-slate-300 h-10 w-10 flex items-center justify-center text-5xl font-serif ml-60"></div>
@@ -61,6 +68,7 @@ function Product({ name, price, priceRange, specs, image, originalPrice, discoun
           </div>
         </div>
       </div>
+      
     </>
   );
 }
