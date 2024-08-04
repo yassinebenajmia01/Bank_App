@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link, useNavigate } from 'react-router-dom'; // Import Link
 
 function Loginn() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-
+  const Navigate=useNavigate()
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
@@ -58,7 +58,7 @@ function Loginn() {
           <div className="flex items-center justify-between">
             <button
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
-              type="button"
+              type="button" onClick={()=>{Navigate("/profile")}}
             >
               LOGIN
             </button>
