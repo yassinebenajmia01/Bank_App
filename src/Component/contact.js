@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Contact() {
+  const Navigate=useNavigate()
+
   return (
     <div className="max-w-6xl mx-auto p-4">
       <h2 className="text-2xl font-bold mb-4">READY TO WORK WITH US</h2>
@@ -101,6 +104,7 @@ function Contact() {
           <button
             type="submit"
             className="bg-green-500 text-white p-2 rounded-md w-full md:w-auto"
+            onClick={()=>{Navigate("/checkout")}}
           >
             SEND MESSAGE
           </button>
@@ -138,11 +142,11 @@ function Contact() {
         </div>
         
       </div>
-      <div className=''>
+      <div className=' mt-2'>
         <h1 className='font-bold text-xl'>FIND US ON GOOGLE MAP </h1>
         <img
-        src={""}
-        className='h-[90%]'
+        src={"phot.png"} alt="My Image" 
+        className='h-100 w-[100%] pt-8'
         />
         
         

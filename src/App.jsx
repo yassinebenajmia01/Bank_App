@@ -12,6 +12,7 @@ import Home from "./Component/home";
 import Homee from "./Component/homee";
 import Profile from "./Component/profile";
 import Contact from "./Component/contact";
+import Checkout from "./Component/checkout";
 
 
 
@@ -44,6 +45,8 @@ function App() {
       <Route path="/signup" element={<><Header/><Navbar/><SearchBar/><Homee/><SignUp/><Footer/></>}/>
       <Route path="/profile" element={<><Header/><Navbar/><SearchBar/><Profile/><Footer/></>}/>
       <Route path="/contact" element={<><Header/><Navbar/><SearchBar/><Contact/><Footer/></>}/>
+      <Route path="/checkout" element={<><Header/><Navbar/><SearchBar/><Checkout/><Footer/></>}/>
+
     
             </Routes>
     
