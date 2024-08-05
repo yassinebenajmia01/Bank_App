@@ -164,77 +164,85 @@ function Checkout() {
         
 
         <div>
-          <h2 className="text-xl font-bold mt-[70%] mb-8">Your Order</h2>
-          <div className="bg-gray-100 rounded-md ">
-            <div className="flex justify-between mb-4">
-              <div className="text-gray-700 font-bold">Product</div>
-              <div className="text-gray-700 font-bold">Sub Total</div>
+        <h2 className="text-xl font-bold mt-[60%] mb-30 my-3">Your Order</h2>
+        <div className="bg-gray-100 rounded-md h-[25%]">
+          <div className="flex justify-between mb-4 border-b border-gray-300">
+            <div className="text-gray-500 font-bold text-base mt-5 ml-3 ">PRODUCT</div>
+            <div className="text-gray-500 font-bold ml-[75%] text-base mt-5 my-3 ">SUB<span className='ml-[5%] text-base '>TOTAL </span>
+            </div>
+          
+
+              
             </div>
             <div className="flex justify-between mb-4">
               <div className="flex items-center">
                 <img
-                  src="https://cdn.pixabay.com/photo/2016/11/22/18/33/macbook-pro-1694306_960_720.jpg"
+                  src="https://s3-alpha-sig.figma.com/img/1ca3/6b05/619c3f1e50a7b8603401775a7325fdd4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mXJbv2VBilErfA~aSKgLJIbsiJT3cxyZGd244ADeTYOnlOp7bFgIA~G0DSWwnPMaq8pZE72AXw~9basngfnsJZu0W-~CRFhjGfZ2E6x8Zsd4JXdvNiOP9bGSGUohzrapaaX~5~I8cecQ6fjy2NiuEgLMBk3Ami3VZch~lncaJ5X1bnNZUDoZESqz9-spkwH5-teCBqzvLBS9XXAoHhgZHEBxtzkrz-AnJQ6VDWM~Q83LPZnXHAUF6V4uJXmOGdQn4NFiWvhzzMhaZ-s-jouuSLxd5fkzpBJZvqq8Gt72keN9UyVIlQLWMV1~cmrg88eXayYbFndB9Vw3Nh1uUL-qUg__"
                   alt="Product"
-                  className="w-16 h-16 rounded-md"
+                  className="w-16 h-16 rounded-md ml-8"
                 />
                 <div className="ml-4">
-                  <p className="text-gray-700 font-bold">Pinnaeple Macbook Pro 2022</p>
-                  <p className="text-gray-600">M1/512GB</p>
-                  <p className="text-gray-600">x 3</p>
+                  <p className="text-gray-700 font-bold ">Pinnaeple Macbook Pro 2022</p>
+                  <p className="text-gray-700 font-bold">M1/512GB</p>
+                  <p className="text-gray-00">x 3</p>
                 </div>
               </div>
-              <div className="text-gray-700 font-bold">$9.50</div>
+              
             </div>
-            <div className="flex justify-between mb-4">
+            <div className="flex justify-between mb-4 ">
               <p className="text-gray-700 font-bold">Worldwide Standard Shipping Free</p>
-              <div className="text-gray-700 font-bold">-</div>
+              <div className="font-bold text-red-500 mr-5">+ $9.50</div>
             </div>
             <hr className="my-4" />
             <div className="flex justify-between mb-4">
-              <p className="text-gray-700 font-bold text-lg">Order Total</p>
-              <p className="text-gray-700 font-bold text-lg">$1,746.50</p>
+              <p className="text-black font-bold text-xl ml-3">Order Total</p>
+              <p className="text-green-500 font-bold text-xl mr-4">$1,746.50</p>
             </div>
-          </div>
-          <h3 className="text-lg font-bold mb-4">Payment</h3>
-          <div className="mb-4">
+          
+          <div className="mb-4 bg-gray-300 h-[120%] rounded-b-lg ">
             <input
               type="checkbox"
               id="direct-bank-transfer"
-              className="mr-2"
+              className="w-6 h-6 ml-5 text-green-600 mt-2"
               defaultChecked
             />
-            <label htmlFor="direct-bank-transfer" className="inline-block text-gray-700 text-sm font-bold">
+            <label htmlFor="direct-bank-transfer" className="inline-block text-gray-700 text-xl font-bold ml-4 mt-2">
               Direct Bank Transfer
             </label>
-            <p className="text-gray-600 text-sm mt-1">
+            <p className="text-gray-500 text-xl mt-1 ml-6">
               Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
             </p>
-          </div>
+          
           <div className="mb-4">
-            <input type="checkbox" id="cash-on-delivery" className="mr-2" />
-            <label htmlFor="cash-on-delivery" className="inline-block text-gray-700 text-sm font-bold">
+            <input type="checkbox" id="cash-on-delivery" className="w-6 h-6 ml-4 mt-6 text-green-600" />
+            <label htmlFor="cash-on-delivery" className="inline-block text-gray-700 text-xl font-bold ml-3 ">
               Cash on Delivery
             </label>
           </div>
           <div className="mb-4">
-            <input type="checkbox" id="paypal" className="mr-2" />
-            <label htmlFor="paypal" className="inline-block text-gray-700 text-sm font-bold">
-              Paypal
-              <a href="#" className="ml-2 text-blue-500 font-bold">
-                What's Paypal?
-              </a>
-            </label>
-            <img
-              src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"
-              alt="Paypal"
-              className="w-24 h-8 ml-2"
-            />
-          </div>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+  
+  <div className="flex items-center">
+  <input type="checkbox" id="paypal" className="w-6 h-6 ml-4 mt-6 text-green-600" />
+    <label htmlFor="paypal" className="inline-block text-gray-700 text-xl font-bold ml-3 mt-4">
+      Paypal
+    </label>
+    <a href="#" className="ml-2 text-blue-500 font-bold text-xl underline mt-4">
+      What's Paypal?
+    </a>
+    <img
+      src="https://s3-alpha-sig.figma.com/img/4828/a955/b097780d4cfc39322f712b2f45a624e6?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d-9S6adevVVgHkfQs19bhxUwlmP1Oqqm57vk6cfT2h9Phxr7og4TeH~ZCBVQpT~9FlPdWOIZs5HNjspUbb-SeqX3EI-NaEhW8obvpJuAMSTZ~VXnctweIhdJ3KOnYzuqWccWdhhvisBJW8CNlWhXrGgpyg9AnANjRQaz0vQRxOz0RemGMLyq2L92lscJXnHWpMlhvXWPDPgAwnQHnZX3QrzGSSefoKv1rfsq~HjFclNvRlli-jXl3aHTf-qJDCzOm--Fki-YtStSp05Z~3s1ZEMccobL6y4bh-gENlO7bqklDz7FKLkOoKII7P-IjKpeqBei97hB-IfQm469GqSF5g__"
+      alt="Paypal"
+      className="w-16 h-5 ml-auto mr-4"
+    />
+  </div>
+</div>
+          <button className="bg-green-500  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ml-[5%] w-[90%] mt-5">
             Place Order
           </button>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 }

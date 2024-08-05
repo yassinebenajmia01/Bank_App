@@ -38,14 +38,14 @@ function App() {
         <Story/>
         <List/>
         <Notb/>
-        <Footer/>
+       
 
       </>}/>
-      <Route path="/login" element={<><Header/><Navbar/><SearchBar/><Home/><Loginn/><Footer/></>}/>
-      <Route path="/signup" element={<><Header/><Navbar/><SearchBar/><Homee/><SignUp/><Footer/></>}/>
-      <Route path="/profile" element={<><Header/><Navbar/><SearchBar/><Profile/><Footer/></>}/>
-      <Route path="/contact" element={<><Header/><Navbar/><SearchBar/><Contact/><Footer/></>}/>
-      <Route path="/checkout" element={<><Header/><Navbar/><SearchBar/><Checkout/><Footer/></>}/>
+      <Route path="/login" element={<><Header/><Navbar/><SearchBar/><Home/><Loginn/></>}/>
+      <Route path="/signup" element={<><Header/><Navbar/><SearchBar/><Homee/><SignUp/></>}/>
+      <Route path="/profile" element={<><Header/><Navbar/><SearchBar/><Profile/></>}/>
+      <Route path="/contact" element={<><Header/><Navbar/><SearchBar/><Contact/></>}/>
+      <Route path="/checkout" element={<><Header/><Navbar/><SearchBar/><Checkout/></>}/>
 
     
             </Routes>
@@ -53,6 +53,7 @@ function App() {
     
     
         </BrowserRouter>
+        <Footer/>
         </>
       );
     }
