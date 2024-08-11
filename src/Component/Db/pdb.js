@@ -8,7 +8,7 @@ const Products = [
     discount: 59.00,
     shipping: "Free Shipping",
     availability: "Out of stock",
-    image: "https://s3-alpha-sig.figma.com/img/0197/5265/23fafbf3635c4b46e1fde819e1dc2ecb?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wm2oKQLuyAqF~ciTAHhoiMDhWNevq5Ph6CDvYqKndRONgmbOrrWuFYJnZqcjTJF5bCzvSX3F7LHyNq5bDvKd9ksHIcCLK9Xxj7QNAZAvPXJ~fSVxzcUqiIK-eRoMewMrSmN1ei0nVBO~LM9zbtgZH2S5jhneNZUVocPGynxhZxIm1iSzf7KZnHGMFIBorIJ7rQLe7V1bI3OqcFeeyVwZS0tPTZhnwfdUzLzL4wJ~RgLIH4xMnsS43Gm3JodWpaBBAfW7UougcyAInXQDbGC69ypAUENc7WetiN7j1G7jOtlQerNV59wOhKvd-kHN4ROkTj822VY3iQONO3QeIkNcuA__"
+    image: "https://s3-alpha-sig.figma.com/img/0197/5265/23fafbf3635c4b46e1fde819e1dc2ecb?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T7WxtqZqQzijBkscY9JZOo0darzgBjIKJE6C7Rthm3C6qSRn-s0g9cOMxHxkJoj4nmfWWnHN7ZpAUOrju1iLB-0DK0RzZVIQ1H7VIykjl8R-OLaKHcI24U1JLIfP2Xc4vk9iRKIGcGqn-vMKTU5s7rHnUV541tWJwsxOdxom~YMK4l0a-h7D3RL54VF11afjRL3jXRal6hoxacJD8RXtwWsikWBXfWm8jlCtvEa6rDgXDhb31GSNnVNCeYgixUv-ZNuP9N3pqCJ-n7Gk-VWMlwNfzWyyFsCpnLHsqBvyh6~3D2pvstBM0mZxR-3L8awzDREQ~lM-uJZTrM6QUzDprQ__"
   },
   {
     id: 9,
@@ -21,7 +21,7 @@ const Products = [
     color: "Black",
     shipping: "2.98 Shipping",
     availability: "Pre-order",
-    image: "https://s3-alpha-sig.figma.com/img/a6db/a9c6/0c4399ce199fd5657145a6a95461ef81?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fq8cRHxUrcb~UPCFNQ299P1-sRIFm8rRI5kxqdOAM5wlV6gDe6mfqDVaYiWxhlMAvy7suiCLEVr5T0m17MliMFJhcWx~7S5dapiNj4ZQ81Meiaw7epjxqh5NdtWiJOeXqcX~LiUXj8VO10UPomUDjCfQWOlkZhxx0uNLUi39-mJBI96-3NZ3kN-QrpScxK1A29xEelneMq0APU7sb5L~B6YE0nrSxlT1js1RZFz2fjADCaErICwQ10Y-u6r2C~sr5aIDtUC2QuSMfal0sPP02r-O9A~mug9TwlG32cLdmMRMjUuY-dD8PxKxIxpDJL13vxL1qaV~7PQlmT1ScMlOGw__"
+    image: "https://s3-alpha-sig.figma.com/img/a6db/a9c6/0c4399ce199fd5657145a6a95461ef81?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U3DcAxHvbiHAfMKCCh9kFJZHp6XaMaot4OdBtB6DOIVp6BT00MWCllcaJGw07VbRg77oxSxW~HHaUTuR1p1Ph-elT5EmostiKILG9uNhgwG6QKgmgJk8gqymq808B4RxyJkJD9F2BkZxGghRgDNPaz2fOK1qZChfwpWRu72n8q86w63870lEBhuIrLQ0MnCnD3WdkqyKkmtYNlEA4ACJ05cwFwDjnOHlC6dFUq88aeSsVWGfayd~m-UOnBdQQgVoR8WQna5dTP7OmEPc9MJP4SRDeYx0G26-Xe5LJopK055~TmYwpKalS2usv1v1OX2fQ3FoSNam~yu3jvZWX2bAzQ__"
   },
   {
     id: 10,
@@ -32,7 +32,7 @@ const Products = [
     discount: 3.00,
     shipping: "3.98 Shipping",
     availability: "Contact",
-    image: "https://s3-alpha-sig.figma.com/img/6c00/b1b2/1e6859ec3f40138bedd69be262e356d3?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jSlEhzfeH4tnxBoQQPlkf~wQHtDoW3rmNCJBZ5X3Ks3vlCNV2ke9GQUelh5F3w9bYXiw9zysZIR5uSzdJUL~ce10ExU22olepcGF9JYkf5Ng-UmBS93~1uCHH68h5jSuQXqztAsmiQZZ5vrQl7sxR2LSWIf~7JJrr49rYi7rXUBJ2-MY4rmGtQAbHAMxrot8SoLg0Uu7Svxwm6jnqyrHbbXm-iRO5FpR3-BSrh62~HPlZObzZ53M69DYRiuxj7K25VQ~Hw7XDqDQataW49Wr7XEjWrzmgrAgMGwCCAh3kkJQE5sJv8m0B5ni8V37Xyav-QyuhRcmKPw7TQ1psJD5AA__"
+    image: "https://s3-alpha-sig.figma.com/img/6c00/b1b2/1e6859ec3f40138bedd69be262e356d3?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dMOqFG91gqD~FowKKgb0o9PBNy3pXZcNdPz2bKaPVxUGBm2GbbchVDX1kXO3KEhta~QDibNSPeLuSn0TBIT5r7moBT1AfXmthH0zlqBU7l3r-ZbEgOZ7JL4dNtHzLPdI6wvt9HvbuHXiBQAfyIB0gkECkTrtkVXCiCmBI35gKOSVvBaGILq3nV1HxbOjrUqDkr25CyXUMwNdQfC2U7dWVfb42kB3MKIqTn~SNXVeOB2lPxdb2VrNc9JW~n2c6KeVQnDw3CO7qAzYdLRSWDJRx5sQiZRbHLl-iwOv4IemGSOXcvq-319crtQ8Tn3Jk38jwjRRxKuA4J-9cBR3IbHiDg__"
   },
   {
     id: 152,
@@ -43,7 +43,7 @@ const Products = [
     discount: 199.00,
     shipping: "Free Shipping",
     availability: "In stock",
-    image: "https://s3-alpha-sig.figma.com/img/70fb/3352/120a006a36410fe660bdcf040428d535?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J5tGZd1IPDXdZLNvtNaA4x7EEV1852Kz-WN5vpItQT2qD-0foIQEODGcAErGba~pjpYBhPVoEBcKP1aY8KTv47yOnJifo2RyRJJ4ejpSKASlKduDiGTsm6SH6eAhhyvCIdmdm4dZcYh-UNwVXQwdjf6zSMlKIfxEUZUrnK5aHJGcxuDyJmns~rS8FNu5xPx1JgmZs24GuF-VqZEHwuHjPtr7bWjtGLCRhb9h-Cq7DpBk0mqu9NbNvgEOV6HPY4PZgzcIwivkbJT466ay5AHwVcNEHSFUU8IFHAfy2sxjeke4xMpmpPvuQh0epy8SupZ3DqVgIJcK4hoKXN36A2Ly0g__"
+    image: "https://s3-alpha-sig.figma.com/img/70fb/3352/120a006a36410fe660bdcf040428d535?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gJX~6KigT~bEWQCAjHURSqUHzc2CeeF-skFwo3~CpLKU6jP~jJqSjbpLvQDSca2UOLLyZXotcnku9gMtWRPjHZ~gGYSmVK7Y7umVcxZIKWqWEndtZhXG9SIuMZXb7bWbVNWf5OF7c-oXtnjgM-G6E0pBWTuo-hQUkQl~2FJQF1DWOujKLi1JFxBesRZUEZgfyYue2cpMGPgBjJCTtEsQdjPrU~3mhW6kCUPyOued4wNmwFDnn5jh5aakLdycmvCdw-L3PLz87gPpwgHyl4NUHMYArDXzAe23FcQFR8M8d9l3yhnmdRj-TJ5vmxijFnzG4P~Q8taPcETUl4AUKcFHvA__"
   },
   {
     id: 152,

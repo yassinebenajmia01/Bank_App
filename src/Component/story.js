@@ -8,7 +8,7 @@ function Story() {
         <div className="flex w-full space-x-4 mt-1">
           <div className="relative flex p-4 rounded-[13px] w-[60%] h-[500px]">
             <img
-              src="https://s3-alpha-sig.figma.com/img/ef02/d1db/263e787dceaa0e3d8c30e163080b0d2b?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mofsdKToKr9SeP5Np2RMzRnwfu7QzsmUAKtCL-7-pRNBUWqD8I2LbIhNphkUScnGGukmtj1rxjBSFWc8zDXXjAokydKqTxFHs3llGPKzsACWUJ7hR08fPvx7BiJTFN6FTznOnNyGciU8iCqbZAZ8ewf3Zr6qU04gCLcBv6RSwIO~~ydaGfXf1zOsvIixFGw4QI2VeTZYXxoSgceKU7q6PlyQwjY1nTWyjqk0BF25GEJkB9KHVyLYf4Wjp8M3UJ~mJBPJ-HG~n7SNKDk8z7oCTPllvA8tp3z0t2SaH8-EO10bVZiDOsYwQJA5C~uMnU0ZuVdQ5g5LNX-eLJEY-FrZeg__"
+              src="https://s3-alpha-sig.figma.com/img/ef02/d1db/263e787dceaa0e3d8c30e163080b0d2b?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cTGTAMsQLcDmZSmJu6iU7hrK~PqYfqq-nR7xJuee1Cpcpq3WgE8LWwSD5qnGKqV~-qfLvMkwqbin~ybIxlmzKHNysgzFbYM9AQN7DwBoZ2TA3o2M87ZloRnk9s5rZ2hfoaaiP3QOBglNDns~kx9ACnZkrkvLM-JbwV42Vzs44x2UfREcc-vwaf1JwGM-udimQqGJ6cIgXmSRnFTBi4A-UMLhO~6OoDq7J1tu2EO-z2BIqFVz3MdudgiqjbFzBxf5DqoLaHHq12cDrNd8WsLT1ewv5rLlyKfcXyex32Tk3~NbOdVFkAlAoyXREe0iBug7fRQKFPJ93oHQHI5OQeHACA__"
               alt="Noise Cancelling Headphone"
               className="w-full h-full object-cover rounded-md"
             />
@@ -42,7 +42,7 @@ function Story() {
           </div>
           <div className="relative flex bg-white p-4 rounded-lg w-[40%] h-[500px]">
             <img
-              src="https://s3-alpha-sig.figma.com/img/8c32/60e6/8f2363e9e7dcabb1fbce5816640c968f?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d5SACbu4-g4esC5CeqrFeZLTIYE8xoWGmNmMJ8mfalX20FtCaO3nK2ySmAvIQqg7sbh1CCiEEQGl2fz4lIDglzNVDgIeJ6e6fXWjVtp~8nYQm57DsliKsbukSdv3~FsNlt4L6Tt8v5y41I9B3Qej8Ozu-W9FuwhTnMEowL4siF6YLc045J9NNmQ-En~KO1BCIEFSBkTIn2r5CGouhIdAU7JvNK4fSCr20OM~lVxb2PpVVEfkc5uWDfnsNNPI7mhyvs1yOHLZpm4w8XijY62MlAdJo~snLMuyGh-3MrznSe3CIZVIxvNWKJP-Sue3Ky4EpTwP618OYhMTDy9RQeq31g__"
+              src="https://s3-alpha-sig.figma.com/img/8c32/60e6/8f2363e9e7dcabb1fbce5816640c968f?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lcu8Dg97irV8Wd~vPv4V~GboxSAgXhXbxbxuHwP3nR8~qGvgKPpdXIOhQcO64ldispdaU57rNMfRJnY1va05646LbKOsJqGSWPJ~QAsEbZhJsFiFkAPPDSpclw3QLykKgrbZ0iQO2IE24y4m9VMbXDpIaN9-NDH8Rq4P5dHZ0LlvPsSiiSrTWzWV2CCS~sIkB0NJOk8OTIu6vFctv0MxQz7ncI7KUs7sjTHX57aiCY8FDH50jna9TtCseEzYhUrp9qmYWjhEosRGAZGvKQaBKx9TTJ41iBhkWlfq8od8IEcXdTVWBtKcabPtUUhbLX4Aiam4Vc4ivZEqXAG6xvHb1A__"
               alt="redmi note 12 Pro+ 5g"
               className="w-full h-full object-cover rounded-md"
             />

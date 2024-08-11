@@ -8,7 +8,7 @@ function Navbar() {
     <div className="flex flex-col md:flex-row justify-between items-center p-4 bg-white shadow-md">
       <div className="flex items-center mb-4 md:mb-0">
         <img
-          src="https://s3-alpha-sig.figma.com/img/4331/41bc/8c7a66505619b246757b0e023183dbb2?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V7l07nKVfk15n1ImOW2A~FPkLCXPLfV-5Wh5PaV1hOAIrfgYYxgInAj0qOj7XM5Yxp6Q8qa8uXqYhb-weOoHfGV8tesRuJGIKL5IgLOCQdXpc3bcPht~ljxouTrGNkDvl9sIeCL9nBaPu4GHbcJvN14qbHbCHxkhUK~p5s1GOffayYILzF2S9GqGG0Vc3d8sUyYUDoKca~nfzQlU9s7Mee7x-caB2sk~23tUiPS3bJIHdE4mwOybEnDfHp3bXL9jRJSxMBQktxvRlbiFFcEAdax3GVqJpc3B~8LjdHfbQgSty4Y-a660YXjV05KC2N8xclgE09euA0Aj2jYTJe4EvQ__"
+          src="https://s3-alpha-sig.figma.com/img/4331/41bc/8c7a66505619b246757b0e023183dbb2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hao3mcEAvSi8UpjjyDb7rB9QlLclxqNEq853XpIs-uiRaxv2SugvqO68nmtZNAuDunRSLTeGWCwVKYu1oZKIyYnTip1tQvBLBPD~3PqOiMHdMoVxxobnP0ZhWBeKTt7FMX6xUFALcyTvmxOnAyd05td3MzoUGPf1Brv6ZhYw6a3n4WVrqrEHyHFwg1ly5Bml8VUkGEFhHN4NkiuA015E6~yQ20nJ4sYglbQNHeCu-g0L6F0lAKvgeKj9QVHJap~61rV5apfmKfEkNBwI1LA3xGlgD-25Dvrfb06FXxSnKc3cH27-BkcqtzDp5N5w8LrQjJKmbv5sB3WsdmImmwN4wg__"
           alt="Logo"
           className="mr-2"
         />

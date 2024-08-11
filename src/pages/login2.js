@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom'; // Import Link
+import { useAuth } from '../context/authContext';
 
 function Loginn() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+  const { login } = useAuth();
+  const handleLogin = async () => {
+    try {
+      await login(email, password);
+      Navigate('/profile'); 
+    } catch (error) {
+      console.error('Login Error:', error);
+    }
+  };
+  const [email, setEmail] = useState('');
   const Navigate=useNavigate()
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -32,6 +43,8 @@ function Loginn() {
               id="email"
               type="email"
               placeholder="Example@gmail.com"
+              value={email}
+                onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="mb-6 relative">
@@ -58,7 +71,8 @@ function Loginn() {
           <div className="flex items-center justify-between">
             <button
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
-              type="button" onClick={()=>{Navigate("/profile")}}
+              type="button" onClick={handleLogin}
+
             >
               LOGIN
             </button>
