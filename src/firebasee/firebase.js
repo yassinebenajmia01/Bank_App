@@ -35,17 +35,17 @@ async function Loginn(email, password) {
     }
   }
   
-  async function SignUp( name,phone,email, password) {
+  async function SignUp(name, email, password) {
     try {
-      console.log("skod",email)
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password )
-  
-          const user = userCredential.user;
+      console.log("Signing up with email:", email);
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
       return user;
-  
     } catch (error) {
-      console.log('signuperreur::',console.error())
+      console.error('Signup error:', error);
+      throw error;
     }
   }
+  
   
   export { Loginn, SignUp };

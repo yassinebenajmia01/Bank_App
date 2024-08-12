@@ -1,13 +1,31 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router-dom'; // Import Link
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/authContext';
 
 function Signup() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const Navigate=useNavigate()
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const { signup } = useAuth();
+
+  const handleSignup = async () => {
+    if (password !== confirmPassword) {
+      alert("Passwords do not match!");
+      return;
+    }
+
+    try {
+      await signup(name, email, password);
+      navigate('/contact'); 
+    } catch (error) {
+      console.error('Signup Error:', error);
+    }
+  };
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -39,6 +57,8 @@ function Signup() {
               id="name"
               type="text"
               placeholder="John Doe"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div className="mb-4">
@@ -50,6 +70,8 @@ function Signup() {
               id="email"
               type="email"
               placeholder="Example@gmail.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="mb-6 relative">
@@ -91,7 +113,7 @@ function Signup() {
           <div className="flex items-center justify-between">
             <button
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline"
-              type="button" onClick={()=>{Navigate("/contact")}}
+              type="button" onClick={handleSignup}
             >
               REGISTER
             </button>

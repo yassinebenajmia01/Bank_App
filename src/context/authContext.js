@@ -18,9 +18,9 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const signup = async (name, phone, email, password) => {
+  const signup = async (name, email, password) => {
     try {
-      const response = await SignUp(name, phone, email, password);
+      const response = await SignUp(name, email, password); 
       setUser(response);
       return response;
     } catch (error) {
