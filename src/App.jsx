@@ -9,6 +9,9 @@ import ModernNavbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import SignIn from './Components/Login';
 import Signup from './Components/signup';
+import Features from './Components/Feature';
+import Pricing from './Components/Pricing';
+import About from './Components/About';
 
 const App = () => {
   return (
@@ -41,6 +44,36 @@ const App = () => {
             <>
               <ModernNavbar />
               <Signup />
+              <Footer />
+            </>
+          }
+        />
+         <Route
+          path="/feature"
+          element={
+            <>
+              <ModernNavbar />
+              <Features />
+              <Footer />
+            </>
+          }
+        />
+          <Route
+          path="/pricing"
+          element={
+            <>
+              <ModernNavbar />
+              <Pricing />
+              <Footer />
+            </>
+          }
+        />
+           <Route
+          path="/about"
+          element={
+            <>
+              <ModernNavbar />
+              <About />
               <Footer />
             </>
           }

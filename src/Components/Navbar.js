@@ -23,7 +23,7 @@ const ModernNavbar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 text-lg">
             <Link 
-              to="/features" 
+              to="/feature" 
               className="text-gray-500 hover:text-black transition-colors"
             >
               Features
