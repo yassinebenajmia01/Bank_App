@@ -40,6 +40,12 @@ const ModernNavbar = () => {
             >
               About
             </Link>
+            <Link 
+              to="/dashboard" 
+              className="text-gray-500 hover:text-black transition-colors"
+            >
+              Dashboard
+            </Link>
           </nav>
 
           {/* Authentication Buttons */}
@@ -107,6 +113,13 @@ const ModernNavbar = () => {
             onClick={toggleMenu}
           >
             About
+          </Link>
+          <Link
+            to="/dashboard"
+            className="text-lg text-gray-700 hover:text-black"
+            onClick={toggleMenu}
+          >
+            Dashboard
           </Link>
           <div className="w-full border-t border-gray-200 my-4"></div>
           <Link
