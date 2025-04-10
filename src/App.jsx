@@ -12,6 +12,7 @@ import Signup from './Components/signup';
 import Features from './Components/Feature';
 import Pricing from './Components/Pricing';
 import About from './Components/About';
+import Dashboard from './Components/Dashboard';
 
 const App = () => {
   return (
@@ -74,6 +75,16 @@ const App = () => {
             <>
               <ModernNavbar />
               <About />
+              <Footer />
+            </>
+          }
+        />
+          <Route
+          path="/dashboard"
+          element={
+            <>
+              <ModernNavbar />
+              <Dashboard />
               <Footer />
             </>
           }
